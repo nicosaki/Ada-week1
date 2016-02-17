@@ -12,5 +12,5 @@ jeremyyears = 1136086041/(60*60*24*365)
 
 puts "In one year there are #{yearhours} hours per year}"
 puts "In a decade, there are #{10*yearmins}"
-puts "Nicole Iwasaki is #{Time.now.to_i - Date.new(1992,7,9).to_time.to_i} seconds old"
-puts "Jeremy is #{jeremyyears} years old"
+puts "Nicole is #{Time.now.to_i - Date.new(1992,7,9).to_time.to_i} seconds old"
+puts "Jeremy is #{jeremyyears} years old? No way, he looks maybe 34 at most!"
